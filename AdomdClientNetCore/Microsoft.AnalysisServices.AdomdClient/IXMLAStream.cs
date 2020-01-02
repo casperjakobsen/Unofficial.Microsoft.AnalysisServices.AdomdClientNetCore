@@ -22,7 +22,7 @@ namespace Microsoft.AnalysisServices.AdomdClient
 		{
 			try
 			{
-				//this.iXmlaComClass = new XASC();
+				iXmlaComClass = new XASC();
 			}
 			catch (COMException innerException)
 			{
